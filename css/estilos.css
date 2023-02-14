@@ -55,6 +55,7 @@ img{
 .container-slider{
     margin: 50px 0;
     position: relative;
+    overflow: hidden;
     
 }
 .slider {
