@@ -1,0 +1,54 @@
+@font-face {
+    font-family: Adigiana;
+    src: url(../fonts/AdigianaUI.ttf);
+}
+@font-face{
+    font-family: Roboto;
+    src: url(../fonts/RobotoMono-Regular.ttf)
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: Roboto;
+}
+img{
+    display: block;
+    width: 100%;
+}
+.main-header{
+    padding: 0 20px;
+}
+.main-header__title{
+    text-align: center;
+    font-size: 4em;
+    margin: 10px 0;
+    color: white;
+    font-family: Adigiana;
+    letter-spacing: 3px;
+}
+.main-nav{
+    display: none;
+}
+.main-header__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon-menu{
+    font-size: 1.5em;
+    border: 2px solid white;
+    display: block;
+    padding: 10px 15px;
+    cursor:pointer
+}
+.main-header__btn{
+    display: block;
+    padding: 10px 25px;
+    border: 2px solid white;
+}
+.main-header__input{
+    display: block;
+    padding: 10px;
+}
